@@ -1,23 +1,23 @@
 p {
-	color: white;
-	}
+	color: #ffffff;
+}
 
-p#four {
+#four {
 	background-color: #486cd9;
-	}
+}
 	
-p#three {
+#three {
 	background-color: #4b26a6;
-	}
+}
 	
-p#two {
+#two {
 	background-color: #5d5473;
-	}
+}
 	
-p#one {
+#one {
 	background-color: #debb81;
-	}
+}
 	
-p#zero {
+#zero {
 	background-color: #a66626;
-	}
+}
