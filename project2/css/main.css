@@ -1,0 +1,85 @@
+/* Layout */
+#page {
+	width: 940px;
+	margin: 10px auto;
+	padding: 20px;
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px #2e2e2e;
+}
+
+body {
+	background-color: #1695a3;
+}
+
+/* Headers */
+h1, h2, h3 {
+	font-family: 'Amarante', cursive;
+	color: #eb7f00;
+	text-shadow: 2px 2px #f6dc4b;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+/* Main Navigation */
+ul {
+	width: 625px;
+	padding: 15px;
+	margin: 0 auto;
+	list-style-type: none;
+	text-align: center;	
+}
+
+ul>li {
+	margin: 0 10px;
+	display: inline;
+}
+
+/* Paragraphs */
+p {
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.2;
+}
+
+#one {
+	border: 1px double #1695a3;
+	background-color: rgba(171,240,242,0.75);
+	padding: 2px;
+}
+
+/* List */
+ol {
+	list-style-type: upper-roman;
+}
+
+figcaption {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+/* Links */
+a:link {
+	text-decoration: none;
+	color: #1695a3;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #225378;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #acf0f2;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #acf0f2;
+}
+
