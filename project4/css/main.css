@@ -1,0 +1,211 @@
+/* Layout */
+#page {
+	width: 90%;
+	margin: 0% auto;
+	padding: 20px;
+	border: 1px solid #000;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px 0px #2e2e2e;
+}
+
+/* Main Content */
+article {
+	float: left;
+	width: 56%;
+	margin: 1%;
+}
+
+/* Gallery */
+aside {
+	float: left;
+	width: 30%;
+	margin: 5%;
+	padding: 5px;
+	width: 30%;
+	height: 15%;
+	border: 1px solid #B0E0E6;
+	border-radius: 10px;
+	background: linear-gradient(to bottom, #f2f9fe 0%, #d6f0fd 100%);
+}
+
+footer {
+	clear: left;
+}
+
+/* Controller Icon Placement */
+.icon {
+	background: url("../images/controller.png") no-repeat left;
+	padding-left: 55px;
+	height: 50px;
+}
+
+body {
+	background: #1695a3 url("../images/midnight-rampage.png") repeat top right;
+}
+
+/* Headers */
+h1, h2, h3 {
+	font-family: 'Amarante', cursive;
+	color: #eb7f00;
+	text-shadow: 2px 2px #f6dc4b;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3.333em;
+}
+
+h3 {
+	text-align: center;
+}
+
+/* Main Navigation */
+ul {
+	width: 66%;
+	padding: 15px;
+	margin: 0% auto;
+	list-style-type: none;
+	text-align: center;	
+}
+
+ul>li {
+	margin: 0% 10px;
+	display: inline;
+}
+
+/* Paragraphs */
+p {
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.2;
+}
+
+#one {
+	border: 1px double #1695a3;
+	background-color: rgba(171,240,242,0.75);
+	padding: 2px;
+}
+
+/* List */
+ol {
+	list-style-type: upper-roman;
+}
+
+figcaption {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 0.833em;
+}
+
+img {
+	max-width: 100%
+}
+
+/* Table */
+table {
+	width: 100%;
+	border: 1px solid #B0E0E6;
+	margin: 0%;
+	padding: 5px;
+	empty-cells: hide;
+	text-align: left;
+	font-size: .956em;
+	border-collapse: collapse;
+}
+
+#title, #row2, #row4, #row6, #row8 {
+	background-color: #B5E2FD;
+}
+
+#title {
+	text-transform: uppercase;
+	background-color: #AEC7F3;
+}
+
+/* Form */
+#contactUs {
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.title {
+    float: left;
+    width: 100%;
+    font-size: 1em;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+}
+
+input {
+    margin-left: 10px;
+    border: 1px solid #999;
+}
+
+select {
+    margin-left: 10px;
+    border: 1px solid #999;
+}
+
+textarea {
+    border: 1px solid #999;
+}
+
+input[type="submit"] {
+    margin-left: 0px;
+    border: 1px solid #999;
+    background-color: #ddd;
+}
+
+input:hover {
+    background-color: #eee;
+}
+
+select:hover {
+    background-color: #eee;
+}
+
+textarea:hover {
+    background-color: #eee;
+}
+
+input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+input:focus {
+    background-color: #eee;
+}
+
+select:focus {
+    background-color: #eee;
+}
+
+textarea:focus {
+    background-color: #eee;
+}
+
+input[type="submit"]:focus {
+    background-color: #ccc;
+}
+
+/* Links */
+a:link {
+	text-decoration: none;
+	color: #1695a3;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #225378;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #acf0f2;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #acf0f2;
+}
+
